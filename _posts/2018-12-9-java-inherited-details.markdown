@@ -51,4 +51,4 @@ public class Student extends Person {
 
 我们知道被default访问修饰符修饰时只能在本类或同一个包内被访问，子类无法访问，那么其实意味着如果是同一个包的子类也是能够访问的，其它包的子类无法访问。
 
-![](G:\Project\kmpro.github.io\_posts\2018-12-9-java-inherited-details-img-1.png)
+![](./_posts/2018-12-9-java-inherited-details-img-1.png)
