@@ -1,6 +1,16 @@
+---
+layout:     post
+title:      "Java类继承的那些细节"
+date:       2018-12-9 15:15:00
+author:     "KM"
+catalog: true
+tags:
+    - Java
+---
+
 # Java类继承的那些细节
 
-## 细节1.子类继承父类，子类如何调用父类的变量和方法？
+## 细节1：子类继承父类，子类如何调用父类的变量和方法？
 
 假设有父类Person，如下
 
@@ -37,5 +47,8 @@ public class Student extends Person {
 
 答：不会
 
+## 细节2：default属性对继承的影响
 
+我们知道被default访问修饰符修饰时只能在本类或同一个包内被访问，子类无法访问，那么其实意味着如果是同一个包的子类也是能够访问的，其它包的子类无法访问。
 
+![](G:\Project\kmpro.github.io\_posts\2018-12-9-java-inherited-details-img-1.png)
