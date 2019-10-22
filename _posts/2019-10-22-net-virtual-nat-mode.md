@@ -1,11 +1,11 @@
 ---
 layout:     post
-title:      "C程序中的const和volatile的作用"
-date:       2018-12-9 15:15:00
+title:      "NAT及虚拟机NAT模式介绍"
+date:       2019-10-22 21:41:00
 author:     "KM"
 catalog: true
 tags:
-    - Java
+    - Net
 
 ---
 # NAT及虚拟机NAT模式介绍
